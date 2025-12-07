@@ -1,11 +1,3 @@
-Perfeito, Hudson.
-Aqui está **O DOCUMENTO IDEAL PARA O CODEX**, no formato exato que ele entende melhor: **curto, direto, orientado a ações, com módulos bem definidos, responsabilidades claras e estrutura de pastas**.
-
-➡️ **Você pode copiar e colar exatamente como está abaixo dentro do Codex.**
-Ele vai entender como *especificação completa do projeto* e poderá gerar o código automaticamente.
-
----
-
 # 🚀 **CONTRI-SYSTEM – ESPECIFICAÇÃO OFICIAL PARA O CODEX**
 
 ## **📌 Objetivo do Projeto**
