@@ -2,11 +2,29 @@ import React from 'react';
 
 export const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50 text-slate-900 flex items-center justify-center">
-      <div className="max-w-2xl p-6 bg-white rounded shadow">
-        <h1 className="text-2xl font-bold mb-2">CONTRI System</h1>
-        <p className="text-sm text-slate-700">
-          Estrutura inicial criada com React + Vite. Adicione páginas, componentes e serviços seguindo a especificação do projeto.
+    <div className="app-shell">
+      <div className="login-card">
+        <header>
+          <h1>Bem-vindo de volta</h1>
+          <p>Entre com suas credenciais para acessar o CONTRI System.</p>
+        </header>
+
+        <form>
+          <div className="form-group">
+            <label htmlFor="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="seu@email.com" required />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="password">Senha</label>
+            <input id="password" name="password" type="password" placeholder="••••••••" required />
+          </div>
+
+          <button type="submit">Entrar</button>
+        </form>
+
+        <p className="helper-text">
+          Esqueceu sua senha? <a href="#">Recuperar acesso</a>
         </p>
       </div>
     </div>
